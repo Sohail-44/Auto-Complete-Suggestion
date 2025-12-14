@@ -1,6 +1,6 @@
-# Comp128 HW3: Auto-Complete
+# Comp128 Project: Auto-Complete
 
-Your final homework assignment is to implement a new type of tree data structure. This is a data structure that we have not discussed in class (although it is similar to other trees), so this assignment is meant to simulate the sorts of problems you might encounter as a developer: implementing a new data structure for a particular task. You should be well prepared for this based on your existing knowledge of trees and ADT implementations.
+Your last assignment is to implement a new type of tree data structure. This is a data structure that we have not discussed in class (although it is similar to other trees), so this assignment is meant to simulate the sorts of problems you might encounter as a developer: implementing a new data structure for a particular task. You should be well prepared for this based on your existing knowledge of trees and ADT implementations.
 
 The context for this assignment is a text auto-complete program. Auto-complete checkers, like the predictive ones on your phone that provide word suggestions once you start typing, need to store a spelling dictionary in a way that makes it as fast as possible to see what words start with a specific prefix. For example if you started typing the word "do", the auto-complete program should quickly be able to suggest longer words like "dog" or "doctor" that contain the prefix "do".
 
