@@ -6,22 +6,10 @@ The context for this assignment is a text auto-complete program. Auto-complete c
 
 To make this work efficiently with a tree, rather than storing each word as a node in the tree. We will break the words into individual characters. Each character will correspond to a node in the tree. If the node corresponds with the last letter in the word, then we will mark it using a boolean value that it is the end of a word. Let's look at an example for how each letter gets added, assuming we want to add the words "do", "don", "cat", and "car" to the tree:
 
-<img src="/images/tree1.png" width=60%>
-<img src="/images/tree2.png" width=60%>
-<img src="/images/tree3.png" width=60%>
-<img src="/images/tree4.png" width=60%>
-<img src="/images/tree5.png" width=60%>
-<img src="/images/tree6.png" width=60%>
-<img src="/images/tree7.png" width=60%>
-<img src="/images/tree8.png" width=60%>
-<img src="/images/tree9.png" width=60%>
-<img src="/images/tree10.png" width=60%>
-<img src="/images/tree11.png" width=60%>
-<img src="/images/tree12.png" width=60%>
-<img src="/images/tree13.png" width=60%>
-<img src="/images/tree14.png" width=60%>
-<img src="/images/tree15.png" width=60%>
-<img src="/images/tree16.png" width=60%>
+<img width="1210" height="863" alt="image" src="https://github.com/user-attachments/assets/cdc43ccf-1132-4a40-b687-110e56be9c57" />
+<img width="1210" height="863" alt="image" src="https://github.com/user-attachments/assets/87ea701e-48b3-441a-a414-59035934a0e0" />
+
+
 
 It is very fast to check whether a word is in the tree: start from the root and trace out the word along the edges; if one ends up at a word-terminating node (a purple node in the images above), then the word is in the tree, otherwise it is not.
 
